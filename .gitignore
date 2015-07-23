@@ -1,0 +1,6 @@
+*.iml
+*.ipr
+.idea
+target
+src/test/java/com/googlecode/protobuf/format/test
+src/test/java/protobuf_unittest
