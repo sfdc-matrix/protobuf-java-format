@@ -192,5 +192,14 @@
 				<protoc>${WORKSPACE}/protoc</protoc>
 			</properties>
 		</profile>
-	</profiles>
+    </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-matrix</id>
+            <name>Matrix Nexus repository</name>
+            <url>http://nexus.sfdc-matrix.net:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
+
 </project>
